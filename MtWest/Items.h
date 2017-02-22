@@ -40,50 +40,50 @@ namespace MtWest
 
 		namespace Food
 		{
-			const PlayerItem APPLE = { 0x00EE };
-			const PlayerItem BAGUETTE = { 0x00D6 };
-			const PlayerItem CABBAGE = { 0x00D2 };
-			const PlayerItem CABBAGE_RED = { 0x00D5 };
-			const PlayerItem CHEESE = { 0x00DE };
-			const PlayerItem COOKIES = { 0x00E6 };
-			const PlayerItem CORN = { 0x00D0 };
-			const PlayerItem COFFE_CREAMER = { 0x00DC };
-			const PlayerItem GRAPEFRUIT = { 0x00D8 };
-			const PlayerItem ICE_POPS = { 0x00EF };
-			const PlayerItem ICE_POPS_MELTED = { 0x3801 };
-			const PlayerItem JAPANESE_RADISH = { 0x00D3 };
-			const PlayerItem LETTUCE = { 0x00D4 };
-			const PlayerItem MELON = { 0x00D7 };
-			const PlayerItem MILK = { 0x00DB };
-			const PlayerItem MILK_ALT = { 0x00F0 };
-			const PlayerItem ORANGE = { 0x00D9 };
-			const PlayerItem ORANGE_JUICE = { 0x00DA };
-			const PlayerItem PIE = { 0x0071 };
+			const PlayerItem APPLE              = { 0x00EE };
+			const PlayerItem BAGUETTE           = { 0x00D6 };
+			const PlayerItem CABBAGE            = { 0x00D2 };
+			const PlayerItem CABBAGE_RED        = { 0x00D5 };
+			const PlayerItem CHEESE             = { 0x00DE };
+			const PlayerItem COOKIES            = { 0x00E6 };
+			const PlayerItem CORN               = { 0x00D0 };
+			const PlayerItem COFFE_CREAMER      = { 0x00DC };
+			const PlayerItem GRAPEFRUIT         = { 0x00D8 };
+			const PlayerItem ICE_POPS           = { 0x00EF };
+			const PlayerItem ICE_POPS_MELTED    = { 0x3801 };
+			const PlayerItem JAPANESE_RADISH    = { 0x00D3 };
+			const PlayerItem LETTUCE            = { 0x00D4 };
+			const PlayerItem MELON              = { 0x00D7 };
+			const PlayerItem MILK               = { 0x00DB };
+			const PlayerItem MILK_ALT           = { 0x00F0 };
+			const PlayerItem ORANGE             = { 0x00D9 };
+			const PlayerItem ORANGE_JUICE       = { 0x00DA };
+			const PlayerItem PIE                = { 0x0071 };
 			const PlayerItem PIZZA_GOLDEN_BROWN = { 0x006F };
-			const PlayerItem PIZZA_ROTTEN = { 0x0070 };
-			const PlayerItem PIZZA_UNCOOKED = { 0x006E };
-			const PlayerItem MEAT_RAW = { 0x002A };
-			const PlayerItem MEAT_SPOILED = { 0x002C };
-			const PlayerItem SNACK = { 0x0026 };
-			const PlayerItem SQUASH = { 0x00D1 };
-			const PlayerItem THAWED_VEGETABLES = { 0x3901 };
-			const PlayerItem VEGETABLES_FROZEN = { 0x00ED };
+			const PlayerItem PIZZA_ROTTEN       = { 0x0070 };
+			const PlayerItem PIZZA_UNCOOKED     = { 0x006E };
+			const PlayerItem MEAT_RAW           = { 0x002A };
+			const PlayerItem MEAT_SPOILED       = { 0x002C };
+			const PlayerItem SNACK              = { 0x0026 };
+			const PlayerItem SQUASH             = { 0x00D1 };
+			const PlayerItem THAWED_VEGETABLES  = { 0x3901 };
+			const PlayerItem VEGETABLES_FROZEN  = { 0x00ED };
 			//VEGETABLES_THAWED
-			const PlayerItem WELL_DONE_STEAK = { 0x002B };
-			const PlayerItem WINE = { 0x008C };
-			const PlayerItem YOGURT = { 0x00DD };
-			const PlayerItem ZUCCHINI = { 0x0091 };
+			const PlayerItem WELL_DONE_STEAK    = { 0x002B };
+			const PlayerItem WINE               = { 0x008C };
+			const PlayerItem YOGURT             = { 0x00DD };
+			const PlayerItem ZUCCHINI           = { 0x0091 };
 		}
 
 		namespace MixedDrinks
 		{
-			const PlayerItem ENERGIZER = { 0x3301 };
-			const PlayerItem NECTAR = { 0x3201 };
-			const PlayerItem QUICK_STEP = { 0x2E01 };
-			const PlayerItem RANDOMIZER = { 0x2F01 };
-			const PlayerItem SPITFIRE = { 0x3101 };
+			const PlayerItem ENERGIZER   = { 0x3301 };
+			const PlayerItem NECTAR      = { 0x3201 };
+			const PlayerItem QUICK_STEP  = { 0x2E01 };
+			const PlayerItem RANDOMIZER  = { 0x2F01 };
+			const PlayerItem SPITFIRE    = { 0x3101 };
 			const PlayerItem UNTOUCHABLE = { 0x3001 };
-			const PlayerItem ZOMBAIT = { 0x3401 };
+			const PlayerItem ZOMBAIT     = { 0x3401 };
 		}
 
 		namespace Guns

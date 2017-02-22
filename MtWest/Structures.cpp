@@ -11,7 +11,7 @@ namespace MtWest
 	DWORD* Globals::LevelRequirementLookupTable = nullptr;
 
 
-	// Functions
+	//Functions
 	void Structures::Scan()
 	{
 		//Scan pointers

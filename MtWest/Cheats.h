@@ -29,7 +29,7 @@ namespace MtWest
 		const short ACHIEVEMENT_BULLET_POINT      = 0x13;
 		const short ACHIEVEMENT_PERFECT_GUNNER    = 0x14;
 		const short ACHIEVEMENT_PHOTOJOURNALIST   = 0x15;
-		const short ACHIEVEMENT_THE_ARTISTE	      = 0x16;
+		const short ACHIEVEMENT_THE_ARTISTE       = 0x16;
 		const short ACHIEVEMENT_GROUP_PHOTO       = 0x17;
 		const short ACHIEVEMENT_PORTRAITURE       = 0x18;
 		const short ACHIEVEMENT_CENSUS_TAKER      = 0x19;
