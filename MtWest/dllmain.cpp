@@ -19,13 +19,6 @@ void Initialize()
 	engine_handle = new Engine(GetModuleHandle(NULL));
 }
 
-DWORD WINAPI WorkerThread(LPVOID lpParam)
-{
-	while (1)
-		std::cout << "TEST\n";
-	return 0;
-}
-
 BOOL WINAPI DllMain(HINSTANCE hModule, DWORD dwAttached, LPVOID lpvReserved)
 {
 	if (dwAttached == DLL_PROCESS_ATTACH)
