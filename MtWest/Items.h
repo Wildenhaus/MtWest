@@ -89,8 +89,8 @@ namespace MtWest
 		namespace Guns
 		{
 			const PlayerItem FIFTY_CAL_SNIPER = { 0x00BA };
-			const PlayerItem HANDGUN		  = { 0x004B };
-			const PlayerItem MACHINEGUN		  = { 0x0086 };
+			const PlayerItem HANDGUN          = { 0x004B };
+			const PlayerItem MACHINEGUN       = { 0x0086 };
 			const PlayerItem MEGA_BUSTER	  = { 0x006A };
 			const PlayerItem NAILGUN          = { 0x0072 };
 			const PlayerItem REAL_MEGA_BUSTER = { 0x003A };

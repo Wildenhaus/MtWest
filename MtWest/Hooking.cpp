@@ -18,10 +18,10 @@ namespace MtWest
 		//Since x64 requires JMPs to be within 2GB of address space from RIP,
 		//we need to load the address into a register and jump from that.
 		//We also need to save RAX to the stack and pop it later in the function.
-		unsigned char toWrite[] = { '\x50',                                                 //push rax
-						   '\x48',  '\xB8',                                                 //mov rax, ...
-						   '\x00',  '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', //address for operand
-						   '\xFF',  '\xE0' };                                               //jmp rax
+		unsigned char toWrite[] = { '\x50',                                                           //push rax
+                                    '\x48',  '\xB8',                                                  //mov rax, ...
+                                    '\x00',  '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', //address for operand
+                                    '\xFF',  '\xE0' };                                               //jmp rax
 
 		memcpy(&toWrite[3], &mFuncToHook, sizeof(mFuncToHook)); //Copy pointer address into string
 
